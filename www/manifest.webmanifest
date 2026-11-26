@@ -1,0 +1,29 @@
+{
+  "name": "I Ching — The Living Oracle",
+  "short_name": "I Ching",
+  "description": "Ask a question, cast the coins and receive a clear I Ching reading. 64 hexagrams, 384 lines, offline.",
+  "id": "./",
+  "start_url": "./#/consult",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#f3ead4",
+  "theme_color": "#1d5c47",
+  "lang": "en",
+  "categories": ["lifestyle", "education", "books"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" }
+  ],
+  "screenshots": [
+    { "src": "icons/screenshot-phone.png", "sizes": "390x844", "type": "image/png", "form_factor": "narrow", "label": "A plain-English reading" },
+    { "src": "icons/screenshot-wide.png", "sizes": "1280x800", "type": "image/png", "form_factor": "wide", "label": "Home: launch, install or download the app" }
+  ],
+  "shortcuts": [
+    { "name": "Consult the Oracle", "url": "./#/consult", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Journal", "url": "./#/journal", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

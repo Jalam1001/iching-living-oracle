@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">I Ching</string>
+    <string name="title_activity_main">I Ching</string>
+    <string name="package_name">io.github.jalam1001.ichingoracle</string>
+    <string name="custom_url_scheme">io.github.jalam1001.ichingoracle</string>
+</resources>

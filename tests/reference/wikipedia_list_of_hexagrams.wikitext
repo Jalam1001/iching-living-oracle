@@ -1,0 +1,637 @@
+{{Short description|none}}
+{{DISPLAYTITLE:List of hexagrams of the ''I Ching''}}
+{| align="right"
+| {{Taoism condensed}}
+|}
+__NOTOC__
+This is a list of the 64 [[Hexagram (I Ching)|hexagrams]] of the ''[[I Ching]]'', or ''Book of Changes'', and their [[Template:Unicode chart Yijing Hexagram Symbols|Unicode character codes]].
+
+The list is in [[King Wen sequence|King Wen order]]. (Cf. [[King Wen sequence#Other hexagram sequences|other hexagram sequences]].)
+
+{| align="center"
+|
+{| style="margin: 0 0 1em 1em; border: 1px solid #aaaaaa; background: #f9f9f9;" align="center" cellpadding=0 cellspacing=0
+! style="padding: 0 5px 0 5px; background:#ccccff; text-align:center;" | [[Hexagram (I Ching)|''I Ching'' hexagrams]]
+|-
+| style="font-size: 100%; padding: 0 5px 0 5px; border-top: #aaa 1px solid;" |
+
+{| style="background:#f9f9f9;text-align:center;" width="480" border="0" colspan="16" |
+|- 
+| [[List of hexagrams of the I Ching#Hexagram 1|01 ䷀]]
+| [[List of hexagrams of the I Ching#Hexagram 2|02 ䷁]]
+| [[List of hexagrams of the I Ching#Hexagram 3|03 ䷂]]
+| [[List of hexagrams of the I Ching#Hexagram 4|04 ䷃]]
+| [[List of hexagrams of the I Ching#Hexagram 5|05 ䷄]]
+| [[List of hexagrams of the I Ching#Hexagram 6|06 ䷅]]
+| [[List of hexagrams of the I Ching#Hexagram 7|07 ䷆]]
+| [[List of hexagrams of the I Ching#Hexagram 8|08 ䷇]]
+| [[List of hexagrams of the I Ching#Hexagram 9|09 ䷈]]
+| [[List of hexagrams of the I Ching#Hexagram 10|10 ䷉]]
+| [[List of hexagrams of the I Ching#Hexagram 11|11 ䷊]]
+| [[List of hexagrams of the I Ching#Hexagram 12|12 ䷋]]
+| [[List of hexagrams of the I Ching#Hexagram 13|13 ䷌]]
+| [[List of hexagrams of the I Ching#Hexagram 14|14 ䷍]]
+| [[List of hexagrams of the I Ching#Hexagram 15|15 ䷎]]
+| [[List of hexagrams of the I Ching#Hexagram 16|16 ䷏]]
+|-
+| [[List of hexagrams of the I Ching#Hexagram 17|17 ䷐]]
+| [[List of hexagrams of the I Ching#Hexagram 18|18 ䷑]]
+| [[List of hexagrams of the I Ching#Hexagram 19|19 ䷒]]
+| [[List of hexagrams of the I Ching#Hexagram 20|20 ䷓]]
+| [[List of hexagrams of the I Ching#Hexagram 21|21 ䷔]]
+| [[List of hexagrams of the I Ching#Hexagram 22|22 ䷕]]
+| [[List of hexagrams of the I Ching#Hexagram 23|23 ䷖]]
+| [[List of hexagrams of the I Ching#Hexagram 24|24 ䷗]]
+| [[List of hexagrams of the I Ching#Hexagram 25|25 ䷘]]
+| [[List of hexagrams of the I Ching#Hexagram 26|26 ䷙]]
+| [[List of hexagrams of the I Ching#Hexagram 27|27 ䷚]]
+| [[List of hexagrams of the I Ching#Hexagram 28|28 ䷛]]
+| [[List of hexagrams of the I Ching#Hexagram 29|29 ䷜]]
+| [[List of hexagrams of the I Ching#Hexagram 30|30 ䷝]]
+| [[List of hexagrams of the I Ching#Hexagram 31|31 ䷞]]
+| [[List of hexagrams of the I Ching#Hexagram 32|32 ䷟]]
+|-
+| [[List of hexagrams of the I Ching#Hexagram 33|33 ䷠]]
+| [[List of hexagrams of the I Ching#Hexagram 34|34 ䷡]]
+| [[List of hexagrams of the I Ching#Hexagram 35|35 ䷢]]
+| [[List of hexagrams of the I Ching#Hexagram 36|36 ䷣]]
+| [[List of hexagrams of the I Ching#Hexagram 37|37 ䷤]]
+| [[List of hexagrams of the I Ching#Hexagram 38|38 ䷥]]
+| [[List of hexagrams of the I Ching#Hexagram 39|39 ䷦]]
+| [[List of hexagrams of the I Ching#Hexagram 40|40 ䷧]]
+| [[List of hexagrams of the I Ching#Hexagram 41|41 ䷨]]
+| [[List of hexagrams of the I Ching#Hexagram 42|42 ䷩]]
+| [[List of hexagrams of the I Ching#Hexagram 43|43 ䷪]]
+| [[List of hexagrams of the I Ching#Hexagram 44|44 ䷫]]
+| [[List of hexagrams of the I Ching#Hexagram 45|45 ䷬]]
+| [[List of hexagrams of the I Ching#Hexagram 46|46 ䷭]]
+| [[List of hexagrams of the I Ching#Hexagram 47|47 ䷮]]
+| [[List of hexagrams of the I Ching#Hexagram 48|48 ䷯]]
+|-
+| [[List of hexagrams of the I Ching#Hexagram 49|49 ䷰]]
+| [[List of hexagrams of the I Ching#Hexagram 50|50 ䷱]]
+| [[List of hexagrams of the I Ching#Hexagram 51|51 ䷲]]
+| [[List of hexagrams of the I Ching#Hexagram 52|52 ䷳]]
+| [[List of hexagrams of the I Ching#Hexagram 53|53 ䷴]]
+| [[List of hexagrams of the I Ching#Hexagram 54|54 ䷵]]
+| [[List of hexagrams of the I Ching#Hexagram 55|55 ䷶]]
+| [[List of hexagrams of the I Ching#Hexagram 56|56 ䷷]]
+| [[List of hexagrams of the I Ching#Hexagram 57|57 ䷸]]
+| [[List of hexagrams of the I Ching#Hexagram 58|58 ䷹]]
+| [[List of hexagrams of the I Ching#Hexagram 59|59 ䷺]]
+| [[List of hexagrams of the I Ching#Hexagram 60|60 ䷻]]
+| [[List of hexagrams of the I Ching#Hexagram 61|61 ䷼]]
+| [[List of hexagrams of the I Ching#Hexagram 62|62 ䷽]]
+| [[List of hexagrams of the I Ching#Hexagram 63|63 ䷾]]
+| [[List of hexagrams of the I Ching#Hexagram 64|64 ䷿]]
+|}
+|}
+|}
+
+== Hexagram 1 ==
+
+[[image:iching-hexagram-01.svg|right]]
+
+''Hexagram 1'' is named {{lang|zh|乾}} (qián), "Force". Other variations include "the creative", "strong action", "the key", and "god". Its inner (lower) [[Ba gua|trigram]] is ☰ ({{lang|zh|乾}} qián) force = ({{lang|zh|[[天]]}}) heaven, and its outer (upper) [[Ba gua|trigram]] is identical.
+
+{{charmap|name1=Hexagram for the Creative Heaven|1=4DC0|IncludeGB=no}}<!-- Note: setting IncludeGB to yes throughout breaks the page with “Node-count limit exceeded” errors -->
+
+== Hexagram 2 ==
+
+[[image:iching-hexagram-02.svg|right]]
+
+''Hexagram 2'' is named {{lang|zh|坤}} (kūn), "Field". Other variations include "the receptive", "acquiescence", and "the flow". Its inner (lower) [[Ba gua|trigram]] is ☷ ({{lang|zh|坤}} kūn) field = ({{lang|zh|[[地]]}}) earth, and its outer (upper) [[Ba gua|trigram]] is identical.
+
+{{charmap|name1=Hexagram for the Receptive Earth|1=4DC1|IncludeGB=no}}
+
+== Hexagram 3 ==
+
+[[image:iching-hexagram-03.svg|right]]
+
+''Hexagram 3'' is named {{lang|zh|屯}} (zhūn), "Sprouting". Other variations include "difficulty at the beginning", "gathering support", and "hoarding". The meaning of "屯" is collect, store up, stingy, and stationing troops. Its inner (lower) [[Ba gua|trigram]] is ☳ ({{lang|zh|震}} zhèn) shake = ({{linktext|lang=zh|雷}}) thunder, and its outer (upper) [[Ba gua|trigram]] is ☵ ({{lang|zh|坎}} kǎn) gorge = ({{lang|zh|[[Water (Wu Xing)|水]]}}) water.
+
+{{charmap|name1=Hexagram for Difficulty at the Beginning|1=4DC2|IncludeGB=no}}
+
+== Hexagram 4 ==
+
+[[image:iching-hexagram-04.svg|right]]
+
+''Hexagram 4'' is named {{lang|zh|蒙}} (méng), "Enveloping". Other variations include "youthful folly", "the young shoot", and "discovering". Its inner (lower) [[Ba gua|trigram]] is ☵ ({{lang|zh|坎}} kǎn) gorge = ({{lang|zh|[[Water (Wu Xing)|水]]}}) water, and its outer (upper) [[Ba gua|trigram]] is ☶ ({{lang|zh|艮}} gèn) bound = ({{lang|zh|[[山]]}}) mountain.
+
+{{charmap|name1=Hexagram for Youthful Folly|1=4DC3|IncludeGB=no}}
+
+== Hexagram 5 ==
+
+[[image:iching-hexagram-05.svg|right]]
+
+''Hexagram 5'' is named {{lang|zh|需}} (xū), "Attending". Other variations include "waiting", "moistened", and "arriving". Its inner (lower) [[Ba gua|trigram]] is ☰ ({{lang|zh|乾}} qián) force = ({{lang|zh|[[天]]}}) heaven, and its outer (upper) [[Ba gua|trigram]] is ☵ ({{lang|zh|坎}} kǎn) gorge = ({{lang|zh|[[Water (Wu Xing)|水]]}}) water.
+
+{{charmap|name1=Hexagram for Waiting|1=4DC4|IncludeGB=no}}
+
+== Hexagram 6 ==
+
+[[image:iching-hexagram-06.svg|right]]
+
+''Hexagram 6'' is named {{lang|zh|訟}} (sòng), arguing, dispute, litigation, conflict and "lawsuit". Its inner (lower) [[Ba gua|trigram]] is ☵ ({{lang|zh|坎}} kǎn) gorge = ({{lang|zh|[[Water (Wu Xing)|水]]}}) water, and its outer (upper) [[Ba gua|trigram]] is ☰ ({{lang|zh|乾}} qián) force = ({{lang|zh|[[天]]}}) heaven.
+
+{{charmap|name1=Hexagram for Conflict|1=4DC5|IncludeGB=no}}
+
+== Hexagram 7 ==
+
+[[image:iching-hexagram-07.svg|right]]
+
+''Hexagram 7'' is named {{lang|zh|師}} (shī), "Leading". Other variations include "the army" and "the troops". Its inner (lower) [[Ba gua|trigram]] is ☵ ({{lang|zh|坎}} kǎn) gorge = ({{lang|zh|[[水]]}}) water, and its outer (upper) [[Ba gua|trigram]] is ☷ ({{lang|zh|坤}} kūn) field = ({{lang|zh|[[地]]}}) earth.
+
+{{charmap|name1=Hexagram for the Army|1=4DC6|IncludeGB=no}}
+
+== Hexagram 8 ==
+
+[[image:iching-hexagram-08.svg|right]]
+
+''Hexagram 8'' is named {{lang|zh|比}} (bǐ), "Grouping". Other variations include "holding together" and "alliance". Its inner (lower) [[Ba gua|trigram]] is ☷ ({{lang|zh|坤}} kūn) field = ({{lang|zh|[[地]]}}) earth, and its outer (upper) [[Ba gua|trigram]] is ☵ ({{lang|zh|坎}} kǎn) gorge = ({{lang|zh|[[Water (Wu Xing)|水]]}}) water.
+
+{{charmap|name1=Hexagram for Holding Together|1=4DC7|IncludeGB=no}}
+
+== Hexagram 9 ==
+
+[[image:iching-hexagram-09.svg|right]]
+
+''Hexagram 9'' is named {{lang|zh|小畜}} (xiǎo xù), "Small Accumulating", "domestication" "the taming power of the small", "small harvest", "minor restraint" and "small livestock". Its inner (lower) [[Ba gua|trigram]] is ☰ ({{lang|zh|乾}} qián) force = ({{lang|zh|[[天]]}}) heaven, and its outer (upper) [[Ba gua|trigram]] is ☴ ({{lang|zh|巽}} xùn) ground = ({{lang|zh|[[風]]}}) wind.
+
+{{charmap|name1=Hexagram for Small Taming|1=4DC8|IncludeGB=no}}
+
+== Hexagram 10 ==
+
+[[image:iching-hexagram-10.svg|right]]
+
+''Hexagram 10'' is named {{lang|zh|履}} (lǚ), "Treading". Other variations include "treading (conduct)" and "continuing". Its inner (lower) [[Ba gua|trigram]] is ☱ ({{lang|zh|兌}} duì) open = ({{lang|zh|[[澤]]}}) swamp, and its outer (upper) [[Ba gua|trigram]] is ☰ ({{lang|zh|乾}} qián) force = ({{lang|zh|[[天]]}}) heaven.
+
+{{charmap|name1=Hexagram for Treading|1=4DC9|IncludeGB=no}}
+
+== Hexagram 11 ==
+
+[[image:iching-hexagram-11.svg|right]]
+
+''Hexagram 11'' is named {{lang|zh|泰}} (tài), "Pervading", “smooth going", "peace" and "greatness". Its inner (lower) [[Ba gua|trigram]] is ☰ ({{lang|zh|乾}} qián) force = ({{lang|zh|[[天]]}}) heaven, and its outer (upper) [[Ba gua|trigram]] is ☷ ({{lang|zh|坤}} kūn) field = ({{lang|zh|[[地]]}}) earth.
+
+{{charmap|name1=Hexagram for Peace|1=4DCA|IncludeGB=no}}
+
+== Hexagram 12 ==
+
+[[image:iching-hexagram-12.svg|right]]
+
+''Hexagram 12'' is named {{lang|zh|否}} (pǐ), "Obstruction". Other variations include "standstill (stagnation)" and "selfish persons". Its inner (lower) [[Ba gua|trigram]] is ☷ ({{lang|zh|坤}} kūn) field = ({{lang|zh|[[地]]}}) earth, and its outer (upper) [[Ba gua|trigram]] is ☰ ({{lang|zh|乾}} qián) force = ({{lang|zh|[[天]]}}) heaven.
+
+{{charmap|name1=Hexagram for Standstill|1=4DCB|IncludeGB=no}}
+
+== Hexagram 13 ==
+
+[[image:iching-hexagram-13.svg|right]]
+
+''Hexagram 13'' is named {{lang|zh|同人}} (tóng rén), "Concording People". Other variations include "fellowship with men" and "gathering men". Its inner (lower) [[Ba gua|trigram]] is ☲ ({{lang|zh|離}} lí) radiance = ({{lang|zh|[[Fire (Wu Xing)|火]]}}) fire, and its outer (upper) [[Ba gua|trigram]] is ☰ ({{lang|zh|乾}} qián) force = ({{lang|zh|[[天]]}}) heaven.
+
+{{charmap|name1=Hexagram for Fellowship|1=4DCC|IncludeGB=no}}
+
+== Hexagram 14 ==
+
+[[image:iching-hexagram-14.svg|right]]
+
+''Hexagram 14'' is named {{lang|zh|大有}} (dà yǒu), "Great Possessing". Other variations include "possession in great measure" and "the great possession". Its inner (lower) [[Ba gua|trigram]] is ☰ ({{lang|zh|乾}} qián) force = ({{lang|zh|[[天]]}}) heaven, and its outer (upper) [[Ba gua|trigram]] is ☲ ({{lang|zh|離}} lí) radiance = ({{lang|zh|[[Fire (Wu Xing)|火]]}}) fire.
+
+{{charmap|name1=Hexagram for Great Possession|1=4DCD|IncludeGB=no}}
+
+== Hexagram 15 ==
+
+[[image:iching-hexagram-15.svg|right]]
+
+''Hexagram 15'' is named {{lang|zh|謙}} (qiān), "Humbling". Other variations include "modesty". Its inner (lower) [[Ba gua|trigram]] is ☶ ({{lang|zh|艮}} gèn) bound = ({{lang|zh|[[山]]}}) mountain, and its outer (upper) [[Ba gua|trigram]] is ☷ ({{lang|zh|坤}} kūn) field = ({{lang|zh|[[地]]}}) earth.
+
+{{charmap|name1=Hexagram for Modesty|1=4DCE|IncludeGB=no}}
+
+== Hexagram 16 ==
+
+[[image:iching-hexagram-16.svg|right]]
+
+''Hexagram 16'' is named {{lang|zh|豫}} (yù), "Providing-For". Other variations include "enthusiasm" and "excess". Its inner (lower) [[Ba gua|trigram]] is ☷ ({{lang|zh|坤}} kūn) field = ({{lang|zh|[[地]]}}) earth, and its outer (upper) [[Ba gua|trigram]] is ☳ ({{lang|zh|震}} zhèn) shake = ({{linktext|lang=zh|雷}}) thunder.
+
+{{charmap|name1=Hexagram for Enthusiasm|1=4DCF|IncludeGB=no}}
+
+== Hexagram 17 ==
+
+[[image:iching-hexagram-17.svg|right]]
+
+''Hexagram 17'' is named {{lang|zh|隨}} (suí), "Following", "Pursue", "Hunter". Its inner (lower) [[Ba gua|trigram]] is ☳ ({{lang|zh|震}} zhèn) shake = ({{linktext|lang=zh|雷}}) thunder, and its outer (upper) [[Ba gua|trigram]] is ☱ ({{lang|zh|兌}} duì) open = ({{linktext|lang=zh|澤}}) swamp.
+
+{{charmap|name1=Hexagram for Following|1=4DD0|IncludeGB=no}}
+
+== Hexagram 18 ==
+
+[[image:iching-hexagram-18.svg|right]]
+
+''Hexagram 18'' is named {{lang|zh|蠱}} (gǔ), "Correcting". Other variations include "work on what has been spoiled (decay)", "decaying" and "branch".<ref>{{cite book
+  | last = Moran
+  | first = Elizabeth
+  |author2=Joseph Yu
+  | title = The Complete Idiot's Guide to the I Ching
+  | year = 2001
+  | url = https://books.google.com/books?id=1CK2efLIY7sC&q=The+completely+Idiot's+guide+to+I+Ching+%22Yu%22
+  | isbn = 9780028639796
+ | access-date = 16 October 2008
+  }}</ref> Its inner (lower) [[Ba gua|trigram]] is ☴ ({{lang|zh|巽}} xùn) ground = ({{lang|zh|[[風]]}}) wind, and its outer (upper) [[Ba gua|trigram]] is ☶ ({{lang|zh|艮 gèn}}) bound = ({{lang|zh|[[山]]}}) mountain. ''[[Gu (poison)|Gu]]'' is the name of a venom-based poison traditionally used in Chinese witchcraft.
+
+{{charmap|name1=Hexagram for Work on the Decayed|1=4DD1|IncludeGB=no}}
+
+== Hexagram 19 ==
+
+[[image:iching-hexagram-19.svg|right]]
+
+''Hexagram 19'' is named {{lang|zh|臨}} (lín), "Nearing". Other variations include "approach" and "the forest". Its inner (lower) [[Ba gua|trigram]] is ☱ ({{lang|zh|兌}} duì) open = ({{lang|zh|澤}}) swamp, and its outer (upper) [[Ba gua|trigram]] is ☷ ({{lang|zh|坤}} kūn) field = ({{lang|zh|地}}) earth.
+
+{{charmap|name1=Hexagram for Approach|1=4DD2|IncludeGB=no}}
+
+== Hexagram 20 ==
+
+[[image:iching-hexagram-20.svg|right]]
+
+''Hexagram 20'' is named {{lang|zh|觀}} (guān), "Viewing". Other variations include "contemplation (view)" and "looking up". Its inner (lower) [[Ba gua|trigram]] is ☷ ({{lang|zh|坤}} kūn) field = ({{lang|zh|[[地]]}}) earth, and its outer (upper) [[Ba gua|trigram]] is ☴ ({{lang|zh|巽}} xùn) ground = ({{lang|zh|[[風]]}}) wind.
+
+{{charmap|name1=Hexagram for Contemplation|1=4DD3|IncludeGB=no}}
+
+== Hexagram 21 ==
+
+[[image:iching-hexagram-21.svg|right]]
+
+''Hexagram 21'' is named {{lang|zh|噬嗑}} (shì kè), "Gnawing Bite". Other variations include "biting through" and "biting and chewing". It may refer to teeth working together to bring coherence.<ref>{{cite book | url=https://books.google.com/books?id=tVv2lQtS9DsC&dq=what+does++%E5%99%AC%E5%97%91+mean&pg=PA266 | title=The Classic of Changes: A New Translation of the I Ching as Interpreted by Wang Bi | isbn=9780231082945 | last1=Wang | first1=Bi | year=1994 }}</ref> Its inner (lower) [[Ba gua|trigram]] is ☳ ({{lang|zh|震}} zhèn) shake = ({{linktext|lang=zh|雷}}) thunder, and its outer (upper) [[Ba gua|trigram]] is ☲ ({{lang|zh|離}} lí) radiance = ({{lang|zh|[[Fire (Wu Xing)|火]]}}) fire.<ref>{{cite book
+  | last = Moran
+  | first = Elizabeth
+  |author2=Joseph Yu
+  | title = The Complete Idiot's Guide to the I Ching
+  | year = 2002
+  | publisher = Alpha (Pearson)
+  | url = https://books.google.com/books?id=1CK2efLIY7sC&q=The+completely+Idiot%27s+guide+to+I+Ching+%22Shi+He%22+%22Gnawing%22&pg=PA128
+  | isbn = 9780028639796
+ | access-date = 16 October 2008
+  }}</ref>
+{{charmap|name1=Hexagram for Biting Through|1=4DD4|IncludeGB=no}}
+
+== Hexagram 22 ==
+
+[[image:iching-hexagram-22.svg|right]]
+
+''Hexagram 22'' is named {{lang|zh|賁}} (bì), "Adorning", "bright", "grace", "lush", and "luxuriance". Its inner (lower) [[bagua|trigram]] is ☲ ({{lang|zh|離}} lí) radiance = ({{lang|zh|火}}) fire, and its outer (upper) [[Ba gua|trigram]] is ☶ ({{lang|zh|艮}} gèn) bound = ({{lang|zh|山}}) mountain.<ref>{{cite book
+  | last = Moran
+  | first = Elizabeth
+  |author2=Joseph Yu
+  | title = The Complete Idiot's Guide to the I Ching
+  | year = 2002
+  | publisher = Alpha (Pearson)
+  | url = https://books.google.com/books?id=1CK2efLIY7sC&q=The+completely+Idiot%27s+guide+to+I+Ching+%22Bi%22+%22Adorning%22&pg=PA130
+  | isbn = 9780028639796
+ | access-date = 16 October 2008
+  }}</ref>
+
+{{charmap|name1=Hexagram for Grace|1=4DD5|IncludeGB=no}}
+
+== Hexagram 23 ==
+
+[[image:iching-hexagram-23.svg|right]]
+
+''Hexagram 23'' is named {{lang|zh|剝}} (bō), "Stripping". Other variations include "splitting apart", "flaying", "scalp", and "peel". This may allude to removal of something.<ref>{{Cite web |title=剥 - Translation into English - examples Chinese {{!}} Reverso Context |url=https://context.reverso.net/translation/chinese-english/%E5%89%A5#- |access-date=2022-08-08 |website=context.reverso.net}}</ref> Its inner (lower) [[Ba gua|trigram]] is ☷ ({{lang|zh|坤}} kūn) field = ({{lang|zh|地}}) earth, and its outer (upper) [[Ba gua|trigram]] is ☶ ({{lang|zh|艮}} gèn) bound = ({{lang|zh|山}}) mountain.
+
+{{charmap|name1=Hexagram for Splitting Apart|1=4DD6|IncludeGB=no}}
+
+== Hexagram 24 ==
+
+[[image:iching-hexagram-24.svg|right]]
+
+''Hexagram 24'' is named {{lang|zh|復}} (fù), "Returning". Other variations include "return (the turning point)". Its inner (lower) [[Ba gua|trigram]] is ☳ ({{lang|zh|震}} zhèn) shake = ({{linktext|lang=zh|雷}}) thunder, and its outer (upper) [[Ba gua|trigram]] is ☷ ({{lang|zh|坤}} kūn) field = ({{lang|zh|[[地]]}}) earth.
+
+{{charmap|name1=Hexagram for Return|1=4DD7|IncludeGB=no}}
+
+== Hexagram 25 ==
+
+[[image:iching-hexagram-25.svg|right]]
+
+''Hexagram 25'' is named {{lang|zh|无妄}} (wú wàng), "Without Embroiling". Other variations include "innocence (the unexpected)" and "pestilence". Its inner (lower) [[Ba gua|trigram]] is ☳ ({{lang|zh|震}} zhèn) shake = ({{linktext|lang=zh|雷}}) thunder, and its outer (upper) [[Ba gua|trigram]] is ☰ ({{lang|zh|乾}} qián) force = ({{lang|zh|[[天]]}}) heaven.
+
+{{charmap|name1=Hexagram for Innocence|1=4DD8|IncludeGB=no}}
+
+== Hexagram 26 ==
+
+[[image:iching-hexagram-26.svg|right]]
+
+''Hexagram 26'' is named {{lang|zh|大畜}} (dà xù), "Great Accumulating". Other variations include "the taming power of the great", "great storage", and "potential energy". Its inner (lower) [[Ba gua|trigram]] is ☰ ({{lang|zh|乾}} qián) force = ({{lang|zh|天}}) heaven, and its outer (upper) [[Ba gua|trigram]] is ☶ ({{lang|zh|艮}} gèn) bound = ({{lang|zh|山}}) mountain.
+
+{{charmap|name1=Hexagram for Great Taming|1=4DD9|IncludeGB=no}}
+
+== Hexagram 27 ==
+
+[[image:iching-hexagram-27.svg|right]]
+
+''Hexagram 27'' is named {{lang|zh|頤}} (yí), "Swallowing". Other variations include "the corners of the mouth (providing nourishment)", "jaws" and "comfort/security". Its inner (lower) [[Ba gua|trigram]] is ☳ ({{lang|zh|震}} zhèn) shake = ({{linktext|lang=zh|雷}}) thunder, and its outer (upper) [[Ba gua|trigram]] is ☶ ({{lang|zh|艮}} gèn) bound = ({{lang|zh|山}}) mountain.
+
+{{charmap|name1=Hexagram for Mouth Corners|1=4DDA|IncludeGB=no}}
+
+== Hexagram 28 ==
+
+[[image:iching-hexagram-28.svg|right]]
+
+''Hexagram 28'' is named {{lang|zh|大過}} (dà guò), "Great Exceeding". Other variations include "preponderance of the great", "great surpassing" and "critical mass". Its inner (lower) [[Ba gua|trigram]] is ☴ ({{lang|zh|巽}} xùn) ground = ({{lang|zh|風}}) wind, and its outer (upper) [[Ba gua|trigram]] is ☱ ({{lang|zh|兌}} duì) open = ({{lang|zh|澤}}) swamp.
+
+{{charmap|name1=Hexagram for Great Preponderance|1=4DDB|IncludeGB=no}}
+
+== Hexagram 29 ==
+
+[[image:iching-hexagram-29.svg|right]]
+
+''Hexagram 29'' is named {{lang|zh|坎}} (kǎn), "Gorge". Other variations include "the [[Abyssal zone|abyss]]" (in the oceanographic sense) and "repeated entrapment". Its inner (lower) [[Ba gua|trigram]] is ☵ ({{lang|zh|坎}} kǎn) gorge = ({{lang|zh|水}}) water, and its outer (upper) [[Ba gua|trigram]] is identical.
+
+{{charmap|name1=Hexagram for the Abysmal Water|1=4DDC|IncludeGB=no}}
+
+== Hexagram 30 ==
+
+[[image:iching-hexagram-30.svg|right]]
+
+''Hexagram 30'' is named {{lang|zh|離}} (lí), "Radiance". Other variations include "the clinging, fire" and "the net". Its inner (lower) [[Ba gua|trigram]] is ☲ ({{lang|zh|離}} lí) radiance = ({{lang|zh|火}}) fire, and its outer (upper) [[Ba gua|trigram]] is identical. The origin of the character has its roots in symbols of long-tailed birds such as the [[peacock]] or the legendary [[phoenix (mythology)|phoenix]].
+
+{{charmap|name1=Hexagram for the Clinging Fire|1=4DDD|IncludeGB=no}}
+
+== Hexagram 31 ==
+
+[[image:iching-hexagram-31.svg|right]]
+
+''Hexagram 31'' is named {{lang|zh|咸}} (xián), "Conjoining". Other variations include "influence (wooing)", "feelings", "being affected", and "reciprocity". Its inner (lower) [[Ba gua|trigram]] is ☶ ({{lang|zh|艮}} gèn) bound = ({{lang|zh|山}}) mountain, and its outer (upper) [[Ba gua|trigram]] is ☱ ({{lang|zh|兌}} duì) open = ({{lang|zh|澤}}) swamp.
+
+{{charmap|name1=Hexagram for Influence|1=4DDE|IncludeGB=no}}
+
+== Hexagram 32 ==
+
+[[image:iching-hexagram-32.svg|right]]
+
+''Hexagram 32'' is named {{lang|zh|恆}} (héng), "Persevering". Other variations include "duration" and "constancy". Its inner (lower) [[Ba gua|trigram]] is ☴ ({{lang|zh|巽}} xùn) ground = ({{lang|zh|[[風]]}}) wind, and its outer (upper) [[Ba gua|trigram]] is ☳ ({{lang|zh|震}} zhèn) shake = ({{linktext|lang=zh|雷}}) thunder.
+
+{{charmap|name1=Hexagram for Duration|1=4DDF|IncludeGB=no}}
+
+== Hexagram 33 ==
+
+[[image:iching-hexagram-33.svg|right]]
+
+''Hexagram 33'' is named {{lang|zh|遯}} (dùn), "Retiring". Other variations include "retreat" and "yielding". Its inner (lower) [[Ba gua|trigram]] is ☶ ({{lang|zh|艮}} gèn) bound = ({{lang|zh|山}}) mountain, and its outer (upper) [[Ba gua|trigram]] is ☰ ({{lang|zh|乾}} qián) force = ({{lang|zh|天}}) heaven.
+
+{{charmap|name1=Hexagram for Retreat|1=4DE0|IncludeGB=no}}
+
+== Hexagram 34 ==
+
+[[image:iching-hexagram-34.svg|right]]
+
+''Hexagram 34'' is named {{lang|zh|大壯}} (dà zhuàng), "Great Invigorating". Other variations include "the power of the great" and "great maturity". Its inner (lower) [[Ba gua|trigram]] is ☰ ({{lang|zh|乾}} qián) force = ({{lang|zh|天}}) heaven, and its outer (upper) [[Ba gua|trigram]] is ☳ ({{lang|zh|震}} zhèn) shake = ({{lang|zh|雷}}) thunder.
+
+{{charmap|name1=Hexagram for Great Power|1=4DE1|IncludeGB=no}}
+
+== Hexagram 35 ==
+
+[[image:iching-hexagram-35.svg|right]]
+
+''Hexagram 35'' is named {{lang|zh|晉}} (jìn), "Prospering". Other variations include "progress" and "aquas". Its inner (lower) [[Ba gua|trigram]] is ☷ ({{lang|zh|坤}} kūn) field = ({{lang|zh|地}}) earth, and its outer (upper) [[Ba gua|trigram]] is ☲ ({{lang|zh|離}} lí) radiance = ({{lang|zh|火}}) fire.
+
+{{charmap|name1=Hexagram for Progress|1=4DE2|IncludeGB=no}}
+
+== Hexagram 36 ==
+
+[[image:iching-hexagram-36.svg|right]]
+
+''Hexagram 36'' is named {{lang|zh|明夷}} (míng yí), "Darkening of the Light". Other variations include "brilliance injured" and "intelligence hidden". Its inner (lower) [[Ba gua|trigram]] is ☲ ({{lang|zh|離}} lí) radiance = ({{lang|zh|火}}) fire, and its outer (upper) [[Ba gua|trigram]] is ☷ ({{lang|zh|坤}} kūn) field = ({{lang|zh|地}}) earth.
+
+{{charmap|name1=Hexagram for Darkening of the Light|1=4DE3|IncludeGB=no}}
+
+== Hexagram 37 ==
+
+[[image:iching-hexagram-37.svg|right]]
+
+''Hexagram 37'' is named {{lang|zh|家人}} (jiā rén), "Dwelling People". Other variations include "the family (the clan)" and "family members". Its inner (lower) [[Ba gua|trigram]] is ☲ ({{lang|zh|離}} lí) radiance = ({{lang|zh|火}}) fire, and its outer (upper) [[Ba gua|trigram]] is ☴ ({{lang|zh|巽}} xùn) ground = ({{lang|zh|風}}) wind.
+
+{{charmap|name1=Hexagram for the Family|1=4DE4|IncludeGB=no}}
+
+== Hexagram 38 ==
+
+[[image:iching-hexagram-38.svg|right]]
+
+''Hexagram 38'' is named {{lang|zh|睽}} (kuí), "Polarising". Other variations include "opposition" and "perversion". The symbol 睽 also means separated, estranged, and stare. Its inner (lower) [[Ba gua|trigram]] is ☱ ({{lang|zh|兌}} duì) open = ({{lang|zh|澤}}) swamp, and its outer (upper) [[Ba gua|trigram]] is ☲ ({{lang|zh|離}} lí) radiance = ({{lang|zh|火}}) fire.
+
+{{charmap|name1=Hexagram for Opposition|1=4DE5|IncludeGB=no}}
+
+== Hexagram 39 ==
+
+[[image:iching-hexagram-39.svg|right]]
+
+''Hexagram 39'' is named {{lang|zh|蹇}} (jiǎn), "Limping". Other variations include "obstruction" and "afoot". Its inner (lower) [[Ba gua|trigram]] is ☶ ({{lang|zh|艮}} gèn) bound = ({{lang|zh|山}}) mountain, and its outer (upper) [[Ba gua|trigram]] is ☵ ({{lang|zh|坎}} kǎn) gorge = ({{lang|zh|水}}) water.
+
+{{charmap|name1=Hexagram for Obstruction|1=4DE6|IncludeGB=no}}
+
+== Hexagram 40 ==
+
+[[image:iching-hexagram-40.svg|right]]
+
+''Hexagram 40'' is named {{lang|zh|解}} (jiě), "Taking-Apart". Other variations include "deliverance" and "untangled". Its inner (lower) [[Ba gua|trigram]] is ☵ ({{lang|zh|坎}} kǎn) gorge = ({{lang|zh|[[Water (Wu Xing)|水]]}}) water, and its outer (upper) [[Ba gua|trigram]] is ☳ ({{lang|zh|震}} zhèn) shake = ({{linktext|lang=zh|雷}}) thunder.
+
+{{charmap|name1=Hexagram for Deliverance|1=4DE7|IncludeGB=no}}
+
+== Hexagram 41 ==
+[[File:Iching-hexagram-41.png|alt=|right|I ching 41- diminishing, {{lang|zh|山泽损}}]]
+''Hexagram 41'' is named {{lang|zh|損}} (sǔn), "Diminishing", "lose", "reduction", "remove", "damage", "decrease". Its inner (lower) [[Ba gua|trigram]] is ☱ ({{lang|zh|兌}} duì) open = ({{lang|zh|澤}}) swamp, and its outer (upper) [[Ba gua|trigram]] is ☶ ({{lang|zh|艮}} gèn) bound = ({{lang|zh|山}}) mountain.
+
+{{charmap|name1=Hexagram for Decrease|1=4DE8|IncludeGB=no}}
+
+== Hexagram 42 ==
+
+[[image:iching-hexagram-42.svg|right]]
+
+''Hexagram 42'' is named {{lang|zh|益}} (yì), "Augmenting". Other variations include: increase, beneficial, useful. Its inner (lower) [[Ba gua|trigram]] is ☳ ({{lang|zh|震}} zhèn) shake = ({{linktext|lang=zh|雷}}) thunder, and its outer (upper) [[Ba gua|trigram]] is ☴ ({{lang|zh|巽}} xùn) ground = ({{lang|zh|[[風]]}}) wind.
+
+{{charmap|name1=Hexagram for Increase|1=4DE9|IncludeGB=no}}
+
+== Hexagram 43 ==
+
+[[image:iching-hexagram-43.svg|right]]
+
+''Hexagram 43'' is named {{lang|zh|夬}} (guài), "Displacement". Other variations include "resoluteness", "parting", and "break-through". Its inner (lower) [[Ba gua|trigram]] is ☰ ({{lang|zh|乾}} qián) force = ({{lang|zh|天}}) heaven, and its outer (upper) [[Ba gua|trigram]] is ☱ ({{lang|zh|兌}} duì) open = ({{lang|zh|澤}}) swamp.
+
+{{charmap|name1=Hexagram for Breakthrough|1=4DEA|IncludeGB=no}}
+
+== Hexagram 44 ==
+
+[[image:iching-hexagram-44.svg|right]]
+
+''Hexagram 44'' is named {{lang|zh|姤}} (gòu), "Coupling". Other variations include "coming to meet" and "meeting". Its inner (lower) [[Ba gua|trigram]] is ☴ ({{lang|zh|巽}} xùn) ground = ({{lang|zh|風}}) wind, and its outer (upper) [[Ba gua|trigram]] is ☰ ({{lang|zh|乾}} qián) force = ({{lang|zh|天}}) heaven.
+
+{{charmap|name1=Hexagram for Coming to Meet|1=4DEB|IncludeGB=no}}
+
+== Hexagram 45 ==
+
+[[image:iching-hexagram-45.svg|right]]
+
+''Hexagram 45'' is named {{lang|zh|萃}} (cuì), "Clustering", "gathering together (massing)" and "finished". Other meanings of the symbol: gather, assemble, collect, dense, thick, and collection. It may mean that it's good to get help or advice; for progress it's necessary to persevere. The group needs to be sustained. Its inner (lower) [[Ba gua|trigram]] is ☷ ({{lang|zh|坤}} kūn) field = ({{lang|zh|地}}) earth, and its outer (upper) [[Ba gua|trigram]] is ☱ ({{lang|zh|兌}} duì) open = ({{lang|zh|澤}}) swamp.
+
+{{charmap|name1=Hexagram for Gathering Together|1=4DEC|IncludeGB=no}}
+
+== Hexagram 46 ==
+
+[[image:iching-hexagram-46.svg|right]]
+
+''Hexagram 46'' is named {{lang|zh|升}} (shēng), "Ascending". Other variations include "pushing upward". Its inner (lower) [[Ba gua|trigram]] is ☴ ({{lang|zh|巽}} xùn) ground = ({{lang|zh|風}}) wind, and its outer (upper) [[Ba gua|trigram]] is ☷ ({{lang|zh|坤}} kūn) field = ({{lang|zh|地}}) earth.
+
+{{charmap|name1=Hexagram for Pushing Upward|1=4DED|IncludeGB=no}}
+
+== Hexagram 47 ==
+
+[[image:iching-hexagram-47.svg|right]]
+
+''Hexagram 47'' is named {{lang|zh|困}} (kùn), "Confining". Other variations include "oppression (exhaustion)" and "entangled". Its inner (lower) [[Ba gua|trigram]] is ☵ ({{lang|zh|坎}} kǎn) gorge = ({{lang|zh|水}}) water, and its outer (upper) [[Ba gua|trigram]] is ☱ ({{lang|zh|兌}} duì) open = ({{lang|zh|澤}}) swamp.
+
+{{charmap|name1=Hexagram for Oppression|1=4DEE|IncludeGB=no}}
+
+== Hexagram 48 ==
+
+[[image:iching-hexagram-48.svg|right]]
+
+''Hexagram 48'' is named {{lang|zh|井}} (jǐng), "Welling". Other variations include "the well". Its inner (lower) [[Ba gua|trigram]] is ☴ ({{lang|zh|巽}} xùn) ground = ({{lang|zh|風}}) wind, and its outer (upper) [[Ba gua|trigram]] is ☵ ({{lang|zh|坎}} kǎn) gorge = ({{lang|zh|水}}) water.
+
+{{charmap|name1=Hexagram for the Well|1=4DEF|IncludeGB=no}}
+
+== Hexagram 49 ==
+
+[[image:iching-hexagram-49.svg|right]]
+
+''Hexagram 49'' is named {{lang|zh|革}} (gé), "Skinning". Other variations include "revolution (molting)" and "the bridle". Its inner (lower) [[Ba gua|trigram]] is ☲ ({{lang|zh|離}} lí) radiance = ({{lang|zh|火}}) fire, and its outer (upper) [[Ba gua|trigram]] is ☱ ({{lang|zh|兌}} duì) open = ({{lang|zh|澤}}) swamp.
+
+{{charmap|name1=Hexagram for Revolution|1=4DF0|IncludeGB=no}}
+
+== Hexagram 50 ==
+
+[[image:iching-hexagram-50.svg|right]]
+
+''Hexagram 50'' is named {{lang|zh|鼎}} (dǐng), "Holding". Other variations include "the cauldron". Its inner (lower) [[Ba gua|trigram]] is ☴ ({{lang|zh|巽}} xùn) ground = ({{lang|zh|風}}) wind, and its outer (upper) [[Ba gua|trigram]] is ☲ ({{lang|zh|離}} lí) radiance = ({{lang|zh|火}}) fire.
+
+{{charmap|name1=Hexagram for the Cauldron|1=4DF1|IncludeGB=no}}
+
+== Hexagram 51 ==
+
+[[image:iching-hexagram-51.svg|right]]
+
+''Hexagram 51'' is named {{lang|zh|震}} (zhèn), "Shake","the arousing (shock, thunder)"; "thunder, excite, thrill, convulse, and tremor". The advice is to maintain one's concentration ("one did not lose the sacrificial wine in the ladle"). Its inner (lower) [[Ba gua|trigram]] is ☳ ({{lang|zh|震}} zhèn) shake = ({{linktext|lang=zh|雷}}) thunder, and its outer (upper) [[Ba gua|trigram]] is identical.
+
+{{charmap|name1=Hexagram for the Arousing Thunder|1=4DF2|IncludeGB=no}}
+
+== Hexagram 52 ==
+
+[[image:iching-hexagram-52.svg|right]]
+
+''Hexagram 52'' is named {{lang|zh|艮}} (gèn), "Bound". Other variations include "keeping still, mountain" and "stilling". The symbol also means, "blunt, tough, and chewy like hard leather". Its inner (lower) [[Ba gua|trigram]] is ☶ ({{lang|zh|艮}} gèn) bound = ({{lang|zh|山}}) mountain, and its outer (upper) [[Ba gua|trigram]] is identical.
+
+{{charmap|name1=Hexagram for the Keeping Still Mountain|1=4DF3|IncludeGB=no}}
+
+== Hexagram 53 ==
+
+[[image:iching-hexagram-53.svg|right]]
+
+''Hexagram 53'' is named {{lang|zh|漸}} (jiàn), "Infiltrating". Other variations include "development (gradual progress)" and "advancement". Its inner (lower) [[Ba gua|trigram]] is ☶ ({{lang|zh|艮}} gèn) bound = ({{lang|zh|山}}) mountain, and its outer (upper) [[Ba gua|trigram]] is ☴ ({{lang|zh|巽}} xùn) ground = ({{lang|zh|風}}) wind.
+
+{{charmap|name1=Hexagram for Development|1=4DF4|IncludeGB=no}}
+
+== Hexagram 54 ==
+
+[[image:iching-hexagram-54.svg|right]]
+
+''Hexagram 54'' is named {{lang|zh|歸妹}} (guī mèi), "Converting the Maiden". Other variations include "the marrying maiden" and "returning maiden". Marrying younger sister. Not being in a position to make things happen one's own way. Trying to anyway will only bring trouble. Its inner (lower) [[Ba gua|trigram]] is ☱ ({{lang|zh|兌}} duì) open = ({{lang|zh|澤}}) swamp, and its outer (upper) [[Ba gua|trigram]] is ☳ ({{lang|zh|震}} zhèn) shake = ({{linktext|lang=zh|雷}}) thunder.
+
+{{charmap|name1=Hexagram for the Marrying Maiden|1=4DF5|IncludeGB=no}}
+
+== Hexagram 55 ==
+
+[[image:iching-hexagram-55.svg|right]]
+
+''Hexagram 55'' is named {{lang|zh|豐}} (fēng), "Abounding". Other variations include "abundance" and "fullness". Its inner (lower) [[Ba gua|trigram]] is ☲ ({{lang|zh|離}} lí) radiance = ({{lang|zh|[[Water (Wu Xing)|火]]}}) fire, and its outer (upper) [[Ba gua|trigram]] is ☳ ({{lang|zh|震}} zhèn) shake = ({{linktext|lang=zh|雷}}) thunder.
+
+{{charmap|name1=Hexagram for Abundance|1=4DF6|IncludeGB=no}}
+
+== Hexagram 56 ==
+
+[[image:iching-hexagram-56.svg|right]]
+
+''Hexagram 56'' is named {{lang|zh|旅}} (lǚ), "Sojourning". Other variations include "the wanderer" and "traveling". Its inner (lower) [[Ba gua|trigram]] is ☶ ({{lang|zh|艮}} gèn) bound = ({{lang|zh|山}}) mountain, and its outer (upper) [[Ba gua|trigram]] is ☲ ({{lang|zh|離}} lí) radiance = ({{lang|zh|火}}) fire.
+
+{{charmap|name1=Hexagram for the Wanderer|1=4DF7|IncludeGB=no}}
+
+== Hexagram 57 ==
+
+[[image:iching-hexagram-57.svg|right]]
+
+''Hexagram 57'' is named {{linktext|lang=zh|巽}} (xùn), "Ground". Other variations include "the gentle (the penetrating, wind)" and "calculations". Its inner (lower) [[Ba gua|trigram]] is ☴ ({{linktext|lang=zh|巽}} xùn) ground = ({{linktext|lang=zh|風}}) wind, and its outer (upper) [[Ba gua|trigram]] is identical.
+
+{{charmap|name1=Hexagram for the Gentle Wind|1=4DF8|IncludeGB=no}}
+
+== Hexagram 58 ==
+
+[[image:iching-hexagram-58.svg|right]]
+
+''Hexagram 58'' is named {{lang|zh|兌}} (duì), "Open", "exchange" "the joyous, lake" and "usurpation". The symbol "兌" means exchange, add, against, and convert.<ref>{{Cite web |title=translate 兌 - Google Search |url=https://www.google.com/search?q=translate+%E5%85%8C |access-date=2022-08-08 |website=www.google.com}}</ref> Its inner (lower) [[Ba gua|trigram]] is ☱ ({{lang|zh|兌}} duì) open = ({{lang|zh|澤}}) swamp, and its outer (upper) [[Ba gua|trigram]] is identical.
+
+{{charmap|name1=Hexagram for the Joyous Lake|1=4DF9|IncludeGB=no}}
+
+== Hexagram 59 ==
+
+[[image:iching-hexagram-59.svg|right]]
+
+''Hexagram 59'' is named {{lang|zh|渙}} (huàn), "Dispersing". Other variations include "dispersion (dissolution)" and "dispersal". The symbol means dissipate, dissolve, vanish. Its inner (lower) [[Ba gua|trigram]] is ☵ ({{lang|zh|坎}} kǎn) gorge = ({{lang|zh|水}}) water, and its outer (upper) [[Ba gua|trigram]] is ☴ ({{lang|zh|巽}} xùn) ground = ({{lang|zh|風}}) wind.
+
+{{charmap|name1=Hexagram for Dispersion|1=4DFA|IncludeGB=no}}
+
+== Hexagram 60 ==
+
+[[image:iching-hexagram-60.svg|right]]
+
+''Hexagram 60'' is named {{lang|zh|節}} (jié), "Articulating". Other variations include "limitation" and "moderation". Its inner (lower) [[Ba gua|trigram]] is ☱ ({{lang|zh|兌}} duì) open = ({{lang|zh|澤}}) swamp, and its outer (upper) [[Ba gua|trigram]] is ☵ ({{lang|zh|坎}} kǎn) gorge = ({{lang|zh|水}}) water.
+
+{{charmap|name1=Hexagram for Limitation|1=4DFB|IncludeGB=no}}
+
+== Hexagram 61 ==
+
+[[image:iching-hexagram-61.svg|right]]
+
+''Hexagram 61'' is named {{lang|zh|中孚}} (zhōng fú), "Center Returning", "inner trust", "inner truth" and "central return". Its inner (lower) [[Ba gua|trigram]] is ☱ ({{lang|zh|兌}} duì) open = ({{linktext|lang=zh|澤}}) swamp, and its outer (upper) [[Ba gua|trigram]] is ☴ ({{lang|zh|巽}} xùn) ground = ({{lang|zh|[[風]]}}) wind.
+
+{{charmap|name1=Hexagram for Inner Truth|1=4DFC|IncludeGB=no}}
+
+== Hexagram 62 ==
+
+[[image:iching-hexagram-62.svg|right]]
+
+''Hexagram 62'' is named {{lang|zh|小過}} (xiǎo guò). Often called "Small Exceeding", "preponderance of the small" and "small surpassing", but literal translation of 小過 is: small mistake, slightly too much. Its inner (lower) [[Ba gua|trigram]] is ☶ ({{lang|zh|艮}} gèn) bound = ({{lang|zh|[[山]]}}) mountain, and its outer (upper) [[Ba gua|trigram]] is ☳ ({{lang|zh|震}} zhèn) shake = ({{linktext|lang=zh|雷}}) thunder.
+
+{{charmap|name1=Hexagram for Small Preponderance|1=4DFD|IncludeGB=no}}
+
+== Hexagram 63 ==
+
+[[image:iching-hexagram-63.svg|right]]
+
+''Hexagram 63'' is named {{lang|zh|既濟}} (jì jì), "Already Fording". Other variations include "after completion" and "already completed" or "already done". Its inner (lower) [[Ba gua|trigram]] is ☲ ({{lang|zh|離}} lí) radiance = ({{lang|zh|[[Fire (Wu Xing)|火]]}}) fire, and its outer (upper) [[Ba gua|trigram]] is ☵ ({{lang|zh|坎}} kǎn) gorge = ({{lang|zh|[[Water (Wu Xing)|水]]}}) water.
+
+{{charmap|name1=Hexagram for After Completion|1=4DFE|IncludeGB=no}}
+
+== Hexagram 64 ==
+
+[[image:iching-hexagram-64.svg|right]]
+
+''Hexagram 64'' is named {{lang|zh|未濟}} (wèi jì), "Not Yet Fording". Other variations include "before completion" and "not yet completed". Its inner (lower) [[Ba gua|trigram]] is ☵ ({{lang|zh|坎}} kǎn) gorge = ({{lang|zh|[[Water (Wu Xing)|水]]}}) water, and its outer (upper) [[Ba gua|trigram]] is ☲ ({{lang|zh|離}} lí) radiance = ({{lang|zh|[[Fire (Wu Xing)|火]]}}) fire.
+
+{{charmap|name1=Hexagram for Before Completion|1=4DFF|IncludeGB=no}}
+
+== References ==
+{{reflist}}
+
+==External links==
+* {{in lang|en|fr}} [http://wengu.tartarie.com/wg/wengu.php?l=Yijing Wilhelm, Baynes “The I Ching or Book of Changes”] <small>(Association Française des Professeurs de Chinois)</small>
+
+{{Asia topic|Literature of}}
+
+[[Category:I Ching]]

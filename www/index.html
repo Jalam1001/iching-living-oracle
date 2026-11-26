@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" data-theme="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>I Ching — The Living Oracle</title>
+<meta name="description" content="Ask a question, cast the coins and receive a clear, meaningful I Ching reading. All 64 hexagrams and 384 lines, offline, free, no account.">
+<meta name="theme-color" content="#1f5f4a" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1a16" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="icons/icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="I Ching">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta property="og:title" content="I Ching — The Living Oracle">
+<meta property="og:description" content="Ask a question. Cast the coins. Discover what is changing.">
+<meta property="og:image" content="icons/og-image.png">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<a class="skip" href="#view">Skip to content</a>
+<header class="topbar">
+  <a class="brand" href="#/" aria-label="I Ching — The Living Oracle, home">
+    <span class="seal" aria-hidden="true">易</span>
+    <span class="brand-text"><b>I Ching</b><small>The Living Oracle</small></span>
+  </a>
+  <nav class="topnav" aria-label="Main">
+    <a href="#/consult" data-nav="consult">Consult</a>
+    <a href="#/hexagrams" data-nav="hexagrams">64 Hexagrams</a>
+    <a href="#/trigrams" data-nav="trigrams">Trigrams</a>
+    <a href="#/journal" data-nav="journal">Journal</a>
+    <a href="#/learn" data-nav="learn">Learn</a>
+  </nav>
+  <div class="tools">
+    <button class="icon-btn" id="soundBtn" aria-pressed="false" title="Ritual sounds" aria-label="Ritual sounds"><svg viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path class="waves" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke-width="1.8"/></svg></button>
+    <button class="icon-btn" id="themeBtn" title="Light / dark theme" aria-label="Switch light or dark theme"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" fill="none" stroke-width="1.8"/><path d="M12 4a8 8 0 0 1 0 16 4 4 0 0 1 0-8 4 4 0 0 0 0-8z"/><circle cx="12" cy="8" r="1.3" class="dotl"/><circle cx="12" cy="16" r="1.3"/></svg></button>
+  </div>
+</header>
+<main id="view" tabindex="-1"><noscript><p style="padding:2rem">I Ching — The Living Oracle needs JavaScript enabled to run.</p></noscript><div class="boot"><span class="seal big">易</span><p>Opening the Book of Changes…</p></div></main>
+<nav class="tabbar" aria-label="Sections">
+  <a href="#/consult" data-nav="consult"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke-width="1.8"/><rect x="9.5" y="9.5" width="5" height="5" fill="none" stroke-width="1.8"/></svg><span>Oracle</span></a>
+  <a href="#/hexagrams" data-nav="hexagrams"><svg viewBox="0 0 24 24"><path d="M4 5h16M4 9h6M14 9h6M4 13h16M4 17h6M14 17h6" stroke-width="2.2" fill="none"/></svg><span>Hexagrams</span></a>
+  <a href="#/trigrams" data-nav="trigrams"><svg viewBox="0 0 24 24"><path d="M12 3l7.8 4.5v9L12 21l-7.8-4.5v-9z" fill="none" stroke-width="1.8"/><path d="M9 10h6M9 12.5h2M13 12.5h2M9 15h6" stroke-width="1.6"/></svg><span>Trigrams</span></a>
+  <a href="#/journal" data-nav="journal"><svg viewBox="0 0 24 24"><path d="M6 3h11a2 2 0 0 1 2 2v16l-3-2-3 2-3-2-3 2V4a1 1 0 0 1 1-1z" fill="none" stroke-width="1.8"/><path d="M9 8h7M9 12h7" stroke-width="1.6"/></svg><span>Journal</span></a>
+  <a href="#/learn" data-nav="learn"><svg viewBox="0 0 24 24"><path d="M3 6c3-1 6-1 9 1 3-2 6-2 9-1v13c-3-1-6-1-9 1-3-2-6-2-9-1z" fill="none" stroke-width="1.8"/><path d="M12 7v13" stroke-width="1.6"/></svg><span>Learn</span></a>
+</nav>
+<div id="toast" role="status" aria-live="polite"></div>
+<dialog id="modal"><div class="modal-body"></div><form method="dialog"><button class="btn ghost close">Close</button></form></dialog>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

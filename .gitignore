@@ -1,0 +1,15 @@
+node_modules/
+test-results/
+scratch/
+release-artifacts/
+sources/legge-html/
+keystore.properties
+*.jks
+*.keystore
+android/app/build/
+android/build/
+android/.gradle/
+android/capacitor-cordova-android-plugins/build/
+android/local.properties
+android/app/src/main/assets/public/
+.DS_Store

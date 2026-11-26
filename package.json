@@ -1,0 +1,27 @@
+{
+  "name": "iching-living-oracle",
+  "version": "0.1.0",
+  "private": true,
+  "description": "I Ching — The Living Oracle: an offline-first I Ching web app, PWA and Android APK.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build:data": "python3 tools/build_db.py",
+    "build:standalone": "node tools/build-standalone.mjs",
+    "test": "node --test tests/unit/*.test.mjs",
+    "test:e2e": "node tests/e2e/run-e2e.mjs",
+    "serve": "python3 -m http.server 4173 --directory www",
+    "android:sync": "npx cap sync android"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.6.11",
+    "esbuild": "^0.25.12",
+    "playwright": "^1.65.1"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.6.11",
+    "@capacitor/core": "^7.6.11",
+    "@capacitor/filesystem": "^7.1.9",
+    "@capacitor/share": "^7.0.4"
+  }
+}
