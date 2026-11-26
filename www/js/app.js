@@ -56,20 +56,20 @@ async function installApp() {
   <p class="note">On Android you can also install the <a href="${LINKS.apk}">Android APK</a> (${esc(LINKS.apk.split('/').pop())}).</p>`);
 }
 T.installApp = installApp;
-function distButtons() {
-  if (isNative()) return `<div class="dist"><a class="btn launch" href="#/consult">☯ Launch I Ching</a><a class="btn ghost" href="${LINKS.repo}" target="_blank" rel="noopener">View Source Code</a></div>`;
+function distButtons(withLaunch = true) {
+  if (isNative()) return `<div class="dist">${withLaunch ? '<a class="btn launch" href="#/consult">☯ Launch I Ching</a>' : ''}<a class="btn ghost" href="${LINKS.repo}" target="_blank" rel="noopener">View Source Code</a></div>`;
   return `<div class="dist" role="group" aria-label="Get the app">
-    <a class="btn launch" href="#/consult" id="launchBtn">☯&nbsp; Launch I Ching</a>
+    ${withLaunch ? '<a class="btn launch" href="#/consult" id="launchBtn">☯&nbsp; Launch I Ching</a>' : ''}
     <button class="btn gold" id="installBtn" type="button"><svg viewBox="0 0 24 24"><path d="M12 3v11m0 0l-4-4m4 4l4-4M5 19h14" stroke="currentColor" stroke-width="2" fill="none"/></svg><span>Install App<small>${isStandalone() ? 'Already installed' : 'Home screen · offline'}</small></span></button>
-    <a class="btn seal-btn" id="apkBtn" href="${LINKS.apk}" download><svg viewBox="0 0 24 24"><path d="M7 9h10v8a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2zM8 8a4 4 0 0 1 8 0" stroke="currentColor" stroke-width="1.8" fill="none"/><path d="M9 4l1 2M15 4l-1 2" stroke="currentColor" stroke-width="1.6"/></svg><span>Download Android APK<small>v0.1-rc1 · signed</small></span></a>
+    <a class="btn seal-btn" id="apkBtn" href="${LINKS.apk}" download><svg viewBox="0 0 24 24"><path d="M7 9h10v8a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2zM8 8a4 4 0 0 1 8 0" stroke="currentColor" stroke-width="1.8" fill="none"/><path d="M9 4l1 2M15 4l-1 2" stroke="currentColor" stroke-width="1.6"/></svg><span>Download Android APK<small>v0.1-rc2 · signed</small></span></a>
     <a class="btn ghost" id="sourceBtn" href="${LINKS.repo}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M9 7l-5 5 5 5M15 7l5 5-5 5" stroke="currentColor" stroke-width="2" fill="none"/></svg><span>View Source Code<small>GitHub · MIT licence</small></span></a></div>`;
 }
 function wireDist() { const b = $('#installBtn'); if (b) b.onclick = installApp; }
 
 // ---------- router ----------
 const routes = [
-  [/^\/?$/, home], [/^\/consult$/, consult], [/^\/reading$/, readingRoute], [/^\/hexagrams$/, hexagrams], [/^\/hexagram\/(\d+)$/, hexagramDetail],
-  [/^\/trigrams$/, trigrams], [/^\/journal$/, journalList], [/^\/journal\/(.+)$/, journalEntry], [/^\/learn$/, learn], [/^\/learn\/(\w+)$/, learnPage], [/^\/about$/, () => learnPage('about')],
+  [/^\/?$/, landing], [/^\/consult$/, consult], [/^\/reading$/, readingRoute], [/^\/hexagrams$/, hexagrams], [/^\/hexagram\/(\d+)$/, hexagramDetail],
+  [/^\/trigrams$/, trigrams], [/^\/journal$/, journalList], [/^\/journal\/(.+)$/, journalEntry], [/^\/learn$/, landing], [/^\/learn\/(\w+)$/, learnPage], [/^\/about$/, () => learnPage('about')],
 ];
 function parseHash() { const h = location.hash.replace(/^#/, '') || '/'; const [path, qs] = h.split('?'); return { path, q: new URLSearchParams(qs || '') }; }
 let currentCleanup = null;
@@ -77,7 +77,7 @@ async function router() {
   if (currentCleanup) { try { currentCleanup(); } catch {} currentCleanup = null; }
   const { path, q } = parseHash();
   const section = path.split('/')[1] || 'home';
-  const navKey = { reading: 'consult', hexagram: 'hexagrams' }[section] || section;
+  const navKey = { reading: 'consult', hexagram: 'hexagrams', home: 'learn' }[section] || section;
   $$('[data-nav]').forEach((a) => (a.dataset.nav === navKey ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current')));
   for (const [re, fn] of routes) { const m = path.match(re); if (m) { await fn(...m.slice(1), q); break; } }
   if (!routes.some(([re]) => re.test(path))) { view.innerHTML = `<div class="card"><h2>Page not found</h2><p><a href="#/">Return home</a></p></div>`; }
@@ -92,25 +92,24 @@ function dailyHex() { const d = new Date(); const k = d.getFullYear() * 372 + d.
 const hexLink = (h, extra = '') => `<a href="#/hexagram/${h.n}"${extra}>${esc(h.n + '. ' + h.name)}</a>`;
 function bitsArr(h) { return h.bits.split(''); }
 
-// ---------- HOME ----------
-function home() {
+// ---------- LANDING (entry screen = Learn) ----------
+const TITLE = 'Glimpse Your Future Ahead', TAGLINE = '3,000 years of wisdom, one question away';
+function landing() {
   const d = IX.byNum(dailyHex());
-  view.innerHTML = `<section class="hero stage">
-    <div><p class="eyebrow">易經 · The Book of Changes</p><h1>The Living Oracle</h1>
-    <p class="sub">Ask a question. Cast three ancient coins. Receive a clear, thoughtful reading of what is changing in your life.</p>
-    <p class="muted" style="font-size:.95rem">Free · no account · works offline · all 64 hexagrams &amp; 384 classical line texts</p></div>
-    <div class="hero-art"><span class="seal big" aria-hidden="true">易</span>${hexSVG(bitsArr(IX.byNum(64)), { size: 110, animate: true, label: 'A hexagram' })}</div>
-  </section>${distButtons()}
-  <section class="card daily stage"><div>${hexSVG(bitsArr(d), { size: 70 })}</div><div><p class="eyebrow">Today's contemplation</p>
-    <h3 style="margin:0">${esc(d.n + '. ' + d.name)} <span class="cjk" style="color:var(--seal)">${d.zh}</span></h3><p style="margin:.3em 0">${esc(d.core.charAt(0).toUpperCase() + d.core.slice(1))}.</p><a href="#/hexagram/${d.n}">Read more →</a></div></section>
-  <div class="tiles">
-    <a class="tile" href="#/consult"><span class="ic">卜</span><span><b>Consult the Oracle</b><small>Ask, cast six times, read</small></span></a>
-    <a class="tile" href="#/hexagrams"><span class="ic">卦</span><span><b>Explore the 64 Hexagrams</b><small>Searchable encyclopedia</small></span></a>
-    <a class="tile" href="#/trigrams"><span class="ic">八</span><span><b>The Eight Trigrams</b><small>Build any hexagram</small></span></a>
-    <a class="tile" href="#/journal"><span class="ic">記</span><span><b>Personal Journal</b><small>Private, on your device</small></span></a>
-    <a class="tile" href="#/learn/howto"><span class="ic">學</span><span><b>How to Use</b><small>3-minute beginner's guide</small></span></a>
-    <a class="tile" href="#/learn/jung"><span class="ic">心</span><span><b>Jung &amp; Synchronicity</b><small>The psychology of the oracle</small></span></a>
-  </div>${footer()}`;
+  view.innerHTML = `<section class="stage landing">
+    <header class="landing-hero"><p class="eyebrow">易經 · The Book of Changes</p>
+      <h1 class="landing-title">${TITLE}</h1>
+      <p class="tagline">${TAGLINE}</p></header>
+    <a class="consult-cta" href="#/consult" id="launchBtn">
+      <span class="cta-coins" aria-hidden="true">${coinSVG('lc0')}${coinSVG('lc1')}${coinSVG('lc2')}</span>
+      <span class="cta-text"><b>Consult the Oracle</b><small>Ask your question · cast the coins six times · receive your reading</small></span>
+      <span class="cta-go" aria-hidden="true">→</span></a>
+    <h2 class="section-label">Understand the Book of Changes</h2>
+    <div class="learn-nav">${LEARN.map(([k, t, dsc, i]) => `<a class="tile" href="#/learn/${k}"><span class="ic">${i}</span><span><b>${t}</b><small>${dsc}</small></span></a>`).join('')}
+      <a class="tile" href="#/trigrams"><span class="ic">八</span><span><b>The Eight Trigrams</b><small>Interactive Bagua explorer</small></span></a><a class="tile" href="#/hexagrams"><span class="ic">卦</span><span><b>The 64 Hexagrams</b><small>Encyclopedia</small></span></a></div>
+    <section class="card daily"><div>${hexSVG(bitsArr(d), { size: 70 })}</div><div><p class="eyebrow">Today's contemplation</p>
+      <h3 style="margin:0">${esc(d.n + '. ' + d.name)} <span class="cjk" style="color:var(--seal)">${d.zh}</span></h3><p style="margin:.3em 0">${esc(d.core.charAt(0).toUpperCase() + d.core.slice(1))}.</p><a href="#/hexagram/${d.n}">Read more →</a></div></section>
+    <h2 class="section-label">Get the app</h2>${distButtons(false)}${footer()}</section>`;
   wireDist();
 }
 
@@ -415,10 +414,6 @@ const LEARN = [
   ['howto', 'How to Use', 'Beginner\'s guide with an interactive demo', '學'], ['history', 'History & Philosophy', 'Origins, the Ten Wings, Leibniz, the West', '史'],
   ['jung', 'Carl Jung & Synchronicity', 'The psychology of meaningful coincidence', '心'], ['reading', 'Further Reading', 'Verified sources and references', '書'], ['about', 'About & Download', 'Install, APK, source code, privacy', '印'],
 ];
-function learn() {
-  view.innerHTML = `<section class="stage"><p class="eyebrow">Learn</p><h1>Understand the Book of Changes</h1><div class="learn-nav">${LEARN.map(([k, t, d, i]) => `<a class="tile" href="#/learn/${k}"><span class="ic">${i}</span><span><b>${t}</b><small>${d}</small></span></a>`).join('')}
-  <a class="tile" href="#/trigrams"><span class="ic">八</span><span><b>The Eight Trigrams</b><small>Interactive Bagua explorer</small></span></a><a class="tile" href="#/hexagrams"><span class="ic">卦</span><span><b>The 64 Hexagrams</b><small>Encyclopedia</small></span></a></div>${footer()}</section>`;
-}
 function learnPage(k) {
   const meta = LEARN.find((x) => x[0] === k); if (!meta) { location.hash = '#/learn'; return; }
   let body = '';
@@ -428,10 +423,10 @@ function learnPage(k) {
   else if (k === 'jung') body = `<div class="prose">${JUNG}<p><a class="btn ghost small" href="#/reading?l=899787&q=${encodeURIComponent("Jung's question: presenting the I Ching to the West")}">Recreate Jung's consultation (50 → 35)</a> <a class="btn ghost small" href="#/reading?l=876878&q=${encodeURIComponent("Jung's question: writing the foreword")}">Recreate Jung's second consultation (29 → 48)</a></p></div>`;
   else if (k === 'reading') body = `<p class="lede">Classical sources are kept separate from modern explanations and from psychological interpretation. Every link below was checked when this version was released.</p>${REFERENCES.map((g) => `<div class="card"><h3 style="margin-top:0">${esc(g.group)}</h3><ul class="refs">${g.items.map((i) => `<li><a class="ext" href="${i.u}" target="_blank" rel="noopener">${esc(i.t)} ↗</a><br><small>${esc(i.d)}</small><br><small class="muted" style="word-break:break-all">${esc(i.u)}</small></li>`).join('')}</ul></div>`).join('')}`;
   else if (k === 'about') body = `${distButtons()}<div class="prose">${ABOUT}
-     <h3>Install on Android (APK)</h3><ol><li>Tap <b>Download Android APK</b> above (file: <code>iching-living-oracle-v0.1-rc1.apk</code>).</li><li>Open the downloaded file. If Android asks, allow your browser to <b>install unknown apps</b> (Settings → Apps → your browser → Install unknown apps).</li><li>Tap <b>Install</b>, then <b>Open</b>. The app needs no permissions and works fully offline.</li></ol>
-     <p>Verify the download with its SHA-256 checksum, published on the <a href="${LINKS.apkRelease}" target="_blank" rel="noopener">v0.1-rc1 release page</a>. Requires Android 6.0 or newer.</p>
+     <h3>Install on Android (APK)</h3><ol><li>Tap <b>Download Android APK</b> above (file: <code>iching-living-oracle-v0.1-rc2.apk</code>).</li><li>Open the downloaded file. If Android asks, allow your browser to <b>install unknown apps</b> (Settings → Apps → your browser → Install unknown apps).</li><li>Tap <b>Install</b>, then <b>Open</b>. The app needs no permissions and works fully offline.</li></ol>
+     <p>Verify the download with its SHA-256 checksum, published on the <a href="${LINKS.apkRelease}" target="_blank" rel="noopener">v0.1-rc2 release page</a>. Requires Android 6.0 or newer.</p>
      <h3>Install as a web app (PWA)</h3><p>Tap <b>Install App</b>. If your browser has no install button, use the browser menu: <b>Add to Home Screen</b> (iPhone/iPad Safari: Share → Add to Home Screen; Android Chrome: ⋮ → Install app; desktop Chrome/Edge: the install icon in the address bar).</p>
-     <h3>Links</h3><ul><li>Website: <a href="${LINKS.site}">${LINKS.site}</a></li><li>Source code: <a href="${LINKS.repo}" target="_blank" rel="noopener">${LINKS.repo}</a></li><li>Testing report: <a href="${LINKS.testing}" target="_blank" rel="noopener">docs/TESTING.md</a></li><li>Releases: <a href="${LINKS.webRelease}" target="_blank" rel="noopener">v0.1 (web/PWA)</a> · <a href="${LINKS.apkRelease}" target="_blank" rel="noopener">v0.1-rc1 (Android)</a></li></ul>
+     <h3>Links</h3><ul><li>Website: <a href="${LINKS.site}">${LINKS.site}</a></li><li>Source code: <a href="${LINKS.repo}" target="_blank" rel="noopener">${LINKS.repo}</a></li><li>Testing report: <a href="${LINKS.testing}" target="_blank" rel="noopener">docs/TESTING.md</a></li><li>Releases: <a href="${LINKS.webRelease}" target="_blank" rel="noopener">v0.1 (web/PWA)</a> · <a href="${LINKS.apkRelease}" target="_blank" rel="noopener">v0.1-rc2 (Android)</a></li></ul>
      <h3>Settings</h3><div class="row"><button class="btn ghost small" id="ambBtn" type="button">${P.ambient ? 'Stop' : 'Play'} ambient music</button><button class="btn ghost small" id="themeAuto" type="button">Theme: follow system</button></div>
      <p class="muted" style="font-size:.85rem">Version ${VERSION} · ${isNative() ? 'Android app' : isStandalone() ? 'Installed web app' : 'Web'} · Secure random: ${hasSecureRandom() ? 'yes (Web Crypto)' : 'no'}</p></div>`;
   view.innerHTML = `<section class="stage"><a href="#/learn">← Learn</a><p class="eyebrow" style="margin-top:10px">${meta[3]} ${esc(meta[2])}</p><h1>${esc(meta[1])}</h1>${body}${footer()}</section>`;
@@ -470,7 +465,6 @@ async function boot() {
   catch { view.innerHTML = '<div class="card"><h2>Could not load the Book of Changes</h2><p>Please check your connection and reload.</p></div>'; return; }
   IX = makeIndex(DB); T.db = DB; T.ix = IX;
   if (isNative()) document.documentElement.classList.add('native');
-  if (isStandalone() && (!location.hash || location.hash === '#/' || location.hash === '#')) location.replace('#/consult');
   await router(); registerSW(); T.ready = true;
   if (P.ambient && P.sound) document.addEventListener('pointerdown', () => sound.ambient(true), { once: true });
 }

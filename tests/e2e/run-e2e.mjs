@@ -45,10 +45,23 @@ await check('Home loads without errors; load time measured', async () => {
   assert(page.errors.length === 0, page.errors.join('; '));
   return `ready in ${t} ms (DOMContentLoaded ${nav.dcl} ms, load ${nav.load} ms)`;
 });
-await check('Distribution controls: Launch, Install, Download APK, View Source', async () => {
+await check('Entry screen is the Learn screen: title, tagline, Consult card first, Learn tab highlighted', async () => {
+  assert((await page.locator('h1.landing-title').innerText()).trim() === 'Glimpse Your Future Ahead', 'title');
+  assert((await page.locator('.tagline').innerText()).trim() === '3,000 years of wisdom, one question away', 'tagline');
+  const cur = await page.$$eval('.tabbar [aria-current="page"]', (a) => a.map((x) => x.dataset.nav));
+  assert(cur.length === 1 && cur[0] === 'learn', 'learn tab highlighted: ' + cur);
+  const firstLink = await page.$eval('#view a', (a) => a.id); assert(firstLink === 'launchBtn', 'consult card is first link: ' + firstLink);
+  const tiles = await page.$$eval('.learn-nav .tile b', (b) => b.map((x) => x.textContent));
+  for (const t of ['How to Use', 'History & Philosophy', 'Carl Jung & Synchronicity', 'Further Reading', 'About & Download', 'The Eight Trigrams', 'The 64 Hexagrams']) assert(tiles.includes(t), 'tile ' + t);
+  const box = await page.locator('#launchBtn').boundingBox(); assert(box.y + box.height < 844, 'consult card visible without scrolling');
+  await go(page, '#/learn'); assert(await page.locator('h1.landing-title').count() === 1, '#/learn shows the same screen');
+  await go(page, '#/');
+  return `title, tagline, ${tiles.length} learn tiles`;
+});
+await check('Distribution controls: Consult card, Install, Download APK, View Source', async () => {
   for (const id of ['launchBtn', 'installBtn', 'apkBtn', 'sourceBtn']) assert(await page.locator('#' + id).isVisible(), id + ' visible');
   const apk = await page.getAttribute('#apkBtn', 'href'), src = await page.getAttribute('#sourceBtn', 'href');
-  assert(apk === 'https://github.com/Jalam1001/iching-living-oracle/releases/download/v0.1-rc1/iching-living-oracle-v0.1-rc1.apk', 'apk href ' + apk);
+  assert(apk === 'https://github.com/Jalam1001/iching-living-oracle/releases/download/v0.1-rc2/iching-living-oracle-v0.1-rc2.apk', 'apk href ' + apk);
   assert(src === 'https://github.com/Jalam1001/iching-living-oracle', 'source href');
   await page.click('#installBtn'); await page.waitForTimeout(300);
   const modalOpen = await page.evaluate(() => document.querySelector('#modal').open);
@@ -254,7 +267,7 @@ await check('Offline: after first visit the whole app works with the network dis
 
 // ---------------------------------------------------------------- screenshots & contrast (light + dark, 3 viewports)
 const VIEWPORTS = { phone: { ...devices['Pixel 7'] }, tablet: { viewport: { width: 820, height: 1180 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true }, desktop: { viewport: { width: 1440, height: 900 } } };
-const SCREENS = [['home', '#/'], ['cast', null], ['reading', '#/reading?l=687779&q=Should%20I%20take%20the%20new%20job%3F'], ['hexagrams', '#/hexagrams'], ['hexagram-49', '#/hexagram/49'], ['trigrams', '#/trigrams'], ['journal', '#/journal'], ['jung', '#/learn/jung']];
+const SCREENS = [['entry', '#/'], ['cast', null], ['reading', '#/reading?l=687779&q=Should%20I%20take%20the%20new%20job%3F'], ['hexagrams', '#/hexagrams'], ['hexagram-49', '#/hexagram/49'], ['trigrams', '#/trigrams'], ['journal', '#/journal'], ['jung', '#/learn/jung']];
 const contrastFails = new Map(); let contrastChecked = 0; const shots = [];
 for (const theme of ['light', 'dark']) for (const [vp, opts] of Object.entries(VIEWPORTS)) {
   const { ctx: c, page: p } = await newPage(opts, theme);

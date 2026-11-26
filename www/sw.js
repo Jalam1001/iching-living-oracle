@@ -1,5 +1,5 @@
 // Service worker: precaches the whole app for offline use; updates when online.
-const VERSION = 'v0.1-r2';
+const VERSION = 'v0.1-r3';
 const CACHE = `iching-${VERSION}`;
 const ASSETS = ['./', 'index.html', 'manifest.webmanifest', 'css/app.css', 'js/app.js', 'js/engine.js', 'js/reading.js', 'js/store.js', 'js/audio.js', 'js/svg.js', 'js/content.js', 'data/iching.json',
   'icons/favicon.svg', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/maskable-192.png', 'icons/maskable-512.png', 'icons/apple-touch-icon.png'];

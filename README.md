@@ -1,25 +1,30 @@
 # 易 I Ching — The Living Oracle
 
+### Glimpse Your Future Ahead
+*3,000 years of wisdom, one question away.*
+
 Ask a question, cast three coins (or simulate the yarrow stalks), and receive a clear, thoughtful reading in plain English, with the classical text beside it. All 64 hexagrams and 384 line texts, a searchable encyclopedia, an interactive trigram builder, a private journal and an introduction to Jung's view of the I Ching. Free, no account, no tracking, works offline.
 
 | | |
 |---|---|
 | **Open the website** | https://jalam1001.github.io/iching-living-oracle/ |
 | **Install as an app (PWA)** | Open the website and tap **Install App** (or use your browser's *Install* / *Add to Home Screen*) |
-| **Android APK** | [iching-living-oracle-v0.1-rc1.apk](https://github.com/Jalam1001/iching-living-oracle/releases/download/v0.1-rc1/iching-living-oracle-v0.1-rc1.apk) · [release notes & SHA-256](https://github.com/Jalam1001/iching-living-oracle/releases/tag/v0.1-rc1) |
+| **Android APK** | [iching-living-oracle-v0.1-rc2.apk](https://github.com/Jalam1001/iching-living-oracle/releases/download/v0.1-rc2/iching-living-oracle-v0.1-rc2.apk) · [release notes & SHA-256](https://github.com/Jalam1001/iching-living-oracle/releases/tag/v0.1-rc2) |
 | **Single-file version** | [iching-living-oracle-standalone.html](https://jalam1001.github.io/iching-living-oracle/iching-living-oracle-standalone.html) — save it and open it from disk, no server needed |
 | **Testing report** | [docs/TESTING.md](docs/TESTING.md) |
 
 <p>
-<img src="docs/screenshots/phone-light-home.jpg" width="200" alt="Home screen">
+<img src="docs/screenshots/phone-light-entry.jpg" width="200" alt="Entry screen: Glimpse Your Future Ahead">
+<img src="docs/screenshots/phone-dark-entry.jpg" width="200" alt="Entry screen, dark theme">
 <img src="docs/screenshots/phone-light-cast.jpg" width="200" alt="Casting the coins">
 <img src="docs/screenshots/phone-dark-reading.jpg" width="200" alt="A reading in dark mode">
 <img src="docs/screenshots/phone-light-hexagrams.jpg" width="200" alt="The 64 hexagrams">
 </p>
-<img src="docs/screenshots/desktop-light-home.jpg" width="820" alt="Desktop home">
+<img src="docs/screenshots/desktop-light-entry.jpg" width="820" alt="Desktop entry screen">
 
 ## Features
 
+- **Entry screen** — opens on *Glimpse Your Future Ahead*: a large **Consult the Oracle** card at the top, then the Learn guides (How to Use, History & Philosophy, Carl Jung, Further Reading, About & Download, Eight Trigrams, 64 Hexagrams), today's contemplation and the install/download buttons.
 - **Consult** — question → method → six animated casts (bottom to top) → reading. The coins shown always match the value cast.
 - **Reading in seven parts** — A plain-English reading · B present situation · C changing lines · D where things may be heading · E practical guidance tailored to the question (work, relationships, family, health, money …) · F the traditional text (Legge 1882) · G a Jungian perspective.
 - **64 Hexagrams** — grid or list, search by number, name, pinyin, Chinese or theme, full page for each hexagram with all six lines and a *transformation explorer* (flip any line to see where it leads).

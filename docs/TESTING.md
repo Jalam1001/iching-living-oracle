@@ -1,4 +1,6 @@
-# Testing report — v0.1 (web/PWA) and v0.1-rc1 (Android)
+# Testing report — website/PWA and Android v0.1-rc2
+
+> **Update for v0.1-rc2 (26 Nov 2026):** after the entry screen changed to the Learn screen, all tests were run again: unit 29/29; browser tests 19/19 locally and on the live site (one new check covers the entry screen: title, tagline, Consult card first and visible without scrolling, Learn tab highlighted, all seven Learn tiles, `#/learn` shows the same screen); contrast 3,934 text elements, 0 failures. APK v0.1-rc2: SHA-256 `e4ea8c51571465b2f2c54f32a8aa16249a52efbbd70811647a32a1986e913355`, versionCode 2, signed with the **same certificate** as rc1 (`eaae9a0a…d10b`), no permissions; public download checksum and signature verified. It still has not been installed on an emulator or device (same reason as below). The rest of this report describes the original v0.1 / v0.1-rc1 run.
 
 Date: 26 November 2026 (America/New_York). Every result below was actually run; anything not run is listed under *Not tested*.
 

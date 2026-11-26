@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.1-rc2 — Android APK, and website update (2026-11-26)
+
+### Changed
+- The app now opens on the Learn screen (web, installed PWA and Android), with the Learn tab highlighted.
+- New headline **"Glimpse Your Future Ahead"** with the tagline *"3,000 years of wisdom, one question away"*, also used in the page title, description and PWA manifest.
+- A large **Consult the Oracle** card at the top of the entry screen keeps casting one tap away. Today's contemplation and the Install / Download APK / View Source buttons moved onto the same screen.
+- Installed PWAs now start on the entry screen (`start_url` `./`); service-worker cache bumped to `v0.1-r3` so installed copies update.
+- Website's Download APK button now points to v0.1-rc2 (versionCode 2, signed with the same key as rc1, so it installs over rc1).
+
 ## v0.1 — website / PWA (2026-11-26)
 ## v0.1-rc1 — Android APK release candidate (2026-11-26)
 

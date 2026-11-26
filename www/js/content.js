@@ -2,8 +2,8 @@
 // Classical quotations are from James Legge's public-domain translation (1882).
 export const LINKS = {
   repo: 'https://github.com/Jalam1001/iching-living-oracle',
-  apk: 'https://github.com/Jalam1001/iching-living-oracle/releases/download/v0.1-rc1/iching-living-oracle-v0.1-rc1.apk',
-  apkRelease: 'https://github.com/Jalam1001/iching-living-oracle/releases/tag/v0.1-rc1',
+  apk: 'https://github.com/Jalam1001/iching-living-oracle/releases/download/v0.1-rc2/iching-living-oracle-v0.1-rc2.apk',
+  apkRelease: 'https://github.com/Jalam1001/iching-living-oracle/releases/tag/v0.1-rc2',
   webRelease: 'https://github.com/Jalam1001/iching-living-oracle/releases/tag/v0.1',
   site: 'https://jalam1001.github.io/iching-living-oracle/',
   testing: 'https://github.com/Jalam1001/iching-living-oracle/blob/main/docs/TESTING.md',

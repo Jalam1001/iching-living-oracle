@@ -1,9 +1,9 @@
 {
   "name": "I Ching — The Living Oracle",
   "short_name": "I Ching",
-  "description": "Ask a question, cast the coins and receive a clear I Ching reading. 64 hexagrams, 384 lines, offline.",
+  "description": "Glimpse Your Future Ahead — 3,000 years of wisdom, one question away. Ask a question, cast the coins and receive a clear I Ching reading, offline.",
   "id": "./",
-  "start_url": "./#/consult",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "display_override": ["standalone", "minimal-ui"],

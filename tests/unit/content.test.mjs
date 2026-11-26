@@ -52,5 +52,5 @@ test('reference links are https and the essential ones are present', () => {
   assert.ok(all.length >= 12);
   for (const r of all) assert.match(r.u, /^https:\/\//);
   assert.match(LINKS.repo, /^https:\/\/github\.com\/Jalam1001\/iching-living-oracle$/);
-  assert.match(LINKS.apk, /releases\/download\/v0\.1-rc1\/iching-living-oracle-v0\.1-rc1\.apk$/);
+  assert.match(LINKS.apk, /releases\/download\/v0\.1-rc2\/iching-living-oracle-v0\.1-rc2\.apk$/);
 });

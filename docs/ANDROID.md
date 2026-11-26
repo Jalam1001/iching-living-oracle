@@ -28,8 +28,8 @@ aapt dump permissions app-release.apk
 sha256sum app-release.apk
 ```
 
-Release signing certificate (v0.1-rc1): `CN=I Ching Living Oracle, OU=Jalam1001, O=Jalam1001, C=US`, RSA 4096,
+Release signing certificate (v0.1-rc1 and v0.1-rc2): `CN=I Ching Living Oracle, OU=Jalam1001, O=Jalam1001, C=US`, RSA 4096,
 SHA-256 `ea:ae:9a:0a:c5:9a:2c:3b:1b:dd:1b:4b:d5:82:db:51:9c:b0:bc:68:d6:47:cb:5b:12:c2:c4:77:b6:e5:d1:0b`.
 Future updates must be signed with the same key to install over this version.
 
-Application ID `io.github.jalam1001.ichingoracle`, versionName `0.1-rc1`, versionCode 1, minSdk 23 (Android 6.0), targetSdk 35.
+Application ID `io.github.jalam1001.ichingoracle`, versionName `0.1-rc2`, versionCode 2, minSdk 23 (Android 6.0), targetSdk 35.

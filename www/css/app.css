@@ -221,3 +221,27 @@ dialog::backdrop{background:rgba(10,20,15,.55)} dialog form{display:flex;justify
 .hex.result .ln.chg{animation:flipin .9s cubic-bezier(.2,.8,.2,1) .7s both;transform-box:fill-box;transform-origin:center}
 @keyframes flipin{0%{opacity:.2;transform:scaleX(.15)}60%{opacity:1;transform:scaleX(1.08)}100%{transform:none}}
 html.native .tabbar{padding-bottom:0}
+/* landing (entry) screen */
+.landing-hero{text-align:center;padding:18px 4px 6px}
+.landing-title{font:700 clamp(2.1rem,7.4vw,3.6rem)/1.08 var(--serif);letter-spacing:-.01em;margin:.12em 0 .18em;color:var(--ink);text-wrap:balance}
+.tagline{font:italic 500 clamp(1.08rem,3.6vw,1.4rem)/1.4 var(--serif);color:var(--seal);margin:0 auto;max-width:40ch;text-wrap:balance}
+.landing-hero::after{content:"";display:block;width:120px;height:2px;margin:14px auto 0;background:linear-gradient(90deg,transparent,var(--gold-bright),transparent)}
+.consult-cta{display:flex;align-items:center;gap:16px;margin:22px 0 26px;padding:18px 20px;border-radius:22px;text-decoration:none;color:var(--on-jade);
+  background:var(--jade);background-image:radial-gradient(circle at 12% 20%,rgba(255,255,255,.14),transparent 45%),linear-gradient(135deg,var(--jade),var(--jade2));
+  box-shadow:0 10px 30px rgba(20,60,45,.28),inset 0 0 0 1.5px rgba(255,255,255,.12);transition:transform .15s,box-shadow .2s;position:relative;overflow:hidden}
+.consult-cta:hover,.consult-cta:focus-visible{transform:translateY(-2px);color:var(--on-jade);box-shadow:0 14px 36px rgba(20,60,45,.36)}
+.consult-cta .cta-coins{display:flex;flex:none}
+.consult-cta .coin{width:46px;height:46px;margin-left:-14px}.consult-cta .coin:first-child{margin-left:0}
+.consult-cta .coin:nth-child(2) .coin-inner{transform:rotateY(180deg)}
+.consult-cta .cta-text{flex:1;min-width:0}
+.consult-cta b{display:block;font:700 clamp(1.25rem,4.6vw,1.55rem)/1.2 var(--serif)}
+.consult-cta small{display:block;font:.9rem/1.35 var(--sans);margin-top:4px;color:var(--on-jade)}
+.consult-cta .cta-go{flex:none;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:var(--gold-bright);color:#1f1606;font:700 1.3rem var(--sans);transition:transform .2s}
+.consult-cta:hover .cta-go{transform:translateX(3px)}
+@media (prefers-reduced-motion:no-preference){.consult-cta .cta-go{animation:ctapulse 2.6s ease-in-out infinite}}
+@keyframes ctapulse{0%,100%{box-shadow:0 0 0 0 rgba(201,149,46,.55)}50%{box-shadow:0 0 0 9px rgba(201,149,46,0)}}
+@media (max-width:480px){.consult-cta{gap:12px;padding:16px 14px}.consult-cta .coin{width:34px;height:34px;margin-left:-12px}.consult-cta .cta-coins{flex-direction:column;align-items:center}.consult-cta .coin{margin:-8px 0 0}.consult-cta .coin:first-child{margin:0}.consult-cta .cta-go{width:40px;height:40px}}
+@media (min-width:1000px){.landing .learn-nav{grid-template-columns:repeat(4,1fr)}.landing .learn-nav .tile:last-child{grid-column:span 2}}
+.section-label{font:700 .78rem var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin:26px 0 10px}
+.landing .daily{margin-top:16px}
+.landing .dist{grid-template-columns:repeat(auto-fit,minmax(180px,1fr));margin-top:0}
